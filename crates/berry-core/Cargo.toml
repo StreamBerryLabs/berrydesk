@@ -1,0 +1,23 @@
+[package]
+name = "berry-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+anyhow.workspace = true
+thiserror.workspace = true
+rusqlite.workspace = true
+keyring.workspace = true
+chrono.workspace = true
+uuid.workspace = true
+url.workspace = true
+toml.workspace = true
+dirs.workspace = true
+libc.workspace = true
+nix.workspace = true
+bytes.workspace = true
