@@ -1,0 +1,10 @@
+[package]
+name = "berry-vcam"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+berry-core = { path = "../berry-core" }
+thiserror.workspace = true
+tracing.workspace = true
