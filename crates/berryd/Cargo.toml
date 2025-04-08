@@ -1,0 +1,20 @@
+[package]
+name = "berryd"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+berry-core = { path = "../berry-core" }
+berry-vcam = { path = "../berry-vcam" }
+tokio.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+clap.workspace = true
+dirs.workspace = true
+anyhow.workspace = true
+nix.workspace = true
+base64 = "0.23"
+libc.workspace = true
