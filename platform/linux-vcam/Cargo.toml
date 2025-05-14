@@ -1,0 +1,10 @@
+[package]
+name = "berry-linux-vcam"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+berry-core = { path = "../../crates/berry-core" }
+anyhow.workspace = true
+tracing.workspace = true
