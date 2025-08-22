@@ -1,0 +1,14 @@
+[Unit]
+Description=BerryDesk daemon
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/berryd
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
+EOF
+echo done
