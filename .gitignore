@@ -4,3 +4,6 @@
 /apps/desktop/src-tauri/target
 *.db
 *.sock
+
+# CI workflow requires workflow OAuth scope to push
+.github/workflows/
